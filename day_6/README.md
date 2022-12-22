@@ -1,0 +1,1 @@
+This day had proyects outside of python so no work can be shown in the repo
