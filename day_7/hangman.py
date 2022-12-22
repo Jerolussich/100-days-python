@@ -5,8 +5,7 @@ import stages_hangman
 
 # choose word and get length for findings print
 word = ["word", "baboon", "camel"]
-word_position = (random.randrange(0, 2))
-word_chosen = word[word_position]
+word_chosen = random.choice(word)
 len_word = len(word_chosen)
 counter = 0
 current_fundings = []
