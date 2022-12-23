@@ -2,10 +2,10 @@
 
 import random
 import stages_hangman
+import words_hangman
 
 # choose word and get length for findings print
-word = ["word", "baboon", "camel"]
-word_chosen = random.choice(word)
+word_chosen = random.choice(words_hangman.word_sample)
 len_word = len(word_chosen)
 counter = 0
 current_fundings = []
